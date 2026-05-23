@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  
+  /* --- İŞTE O BOMBA ARKA PLAN DESENİ (PURE CSS) --- */
+  /* Temel arka plan rengi (yumuşak bir mavi-gri) */
+  background-color: #e5eaf2; 
+  
+  /* Geometrik noktacıklı desen */
+  background-image: 
+    radial-gradient(#ffffff 1px, transparent 1px),
+    radial-gradient(#ffffff 1px, transparent 1px);
+  
+  /* Desen ayarları */
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+  /* ----------------------------------------------- */
+
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
